@@ -3,5 +3,5 @@ version: 1.0.0
 main: io.github.humanrice.eterniabuilder
 description: Auto Building Builder for the Eternia SMP
 author: Aidan Mikhail
-website: https://papermc.io
+website: https://github.com/AidanMikhail/EterniaSMPBuilder
 api-version: '26.1.2'
