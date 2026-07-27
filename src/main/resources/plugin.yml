@@ -3,6 +3,8 @@ version: 1.0
 main: io.github.humanrice.eterniabuilder.EterniaBuilder
 api-version: 1.20
 
+depend: [MythicMobs]
+
 commands:
   builder:
     description: Gives a test builder barrel
