@@ -1,7 +1,21 @@
 name: EterniaBuilder
-version: 1.0.0
-main: io.github.humanrice.eterniabuilder
-description: Auto Building Builder for the Eternia SMP
-author: Aidan Mikhail
-website: https://github.com/AidanMikhail/EterniaSMPBuilder
-api-version: '26.1.2'
+version: 1.0
+main: io.github.humanrice.eterniabuilder.EterniaBuilder
+api-version: 1.20
+
+commands:
+  builder:
+    description: Gives a test builder barrel
+    usage: /builder
+    permission: eternia.builder
+  get_lock:
+    description: Gets the lock of a locked builder barrel
+    usage: /get_lock
+    permission: eternia.getlock
+
+permissions:
+  eternia.builder:
+    default: op
+
+  eternia.getlock:
+    default: op
